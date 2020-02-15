@@ -1,0 +1,122 @@
+
+.Second_top{
+	height: 98px;
+	width: 1140px;
+	margin: 23px auto;
+	padding-left: 0px;
+}
+
+.Second_top img{
+	margin-top: 10px;
+}
+
+.Second_top a{
+	float: right;
+	margin-top: 50px;
+}
+
+.more-class:hover{
+	color: #37c266;
+	font-size: 17.5px;
+}
+
+.Second_bottom{
+	height: 412px;
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.Second_bottom2{
+	height: 212px;
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.left-box{
+	width: 444px;
+	height: 389px;
+	/*left: 50px;*/
+	/*margin-left: 50px;*/
+	border-radius: 10px;
+	box-shadow: 0px 10px 20px #ededed;
+	float:left;
+	transition: all 0.6s linear; 
+}
+
+.left-box p{
+	margin: 10px 10px 0 10px;
+}
+.left-box:hover p{
+	color: #6b6b7e;
+	text-decoration: underline;
+}
+.left-box span{
+	font-size: 12px;
+	color: #b1b1b1;
+	line-height: 1.5px;
+	margin-left: 10px;
+}
+
+.tu{
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	overflow: hidden;
+}
+
+.studying{
+	width: 110px;
+	height: 17px;
+	display: inline-block;
+	color: #00d753;
+	font-size: 12px;
+	position:absolute;
+	bottom:6px;left:330px;
+}
+
+.left-box:hover .tu{
+	filter: brightness(88.5%);
+	box-shadow: 0 0 25px #C1C1CC inset; 
+}
+.left-box:hover{
+	 transform: scale(1.04,1.04);
+	 transition-duration: 0.5s;
+}
+
+.box{
+	width: 212px;height: 184px;
+	float: left;
+	margin:0 0 22px 20px ;
+	border-radius: 10px;
+	box-shadow: 0px 10px 20px #ededed;
+	transition: all 0.6s linear; /* 写此处可达到移开鼠标后恢复图片大小也匀速缓慢 */
+}
+.box p{
+	margin: 5px 10px 0 5px;
+}
+.box:hover p{
+	color: #6b6b7e;
+	text-decoration: underline;
+}
+
+.box:hover .tu{
+	filter: brightness(88.5%);
+	box-shadow: 0 0 25px #C1C1CC inset; 
+}
+.box:hover{
+	transform: scale(1.04,1.04);
+	transition-duration: 0.5s; 
+}
+
+.box span{
+	font-size: 12px;
+	color: #b1b1b1;line-height: 1.5;
+	margin-left: 5px;
+}
+.studying2{
+	width: 84px;height: 17px;
+	display: inline-block;
+	color: #00d753;font-size: 12px;
+	position: relative;left: 3px;top:8px
+}
+

@@ -1,0 +1,30 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{background-color: #f7f7f7;}
+
+a{
+	text-decoration: none;
+	color: #434343;
+}
+
+ul{
+	list-style: none;
+}
+
+.clearfix::after{
+	content: "";
+	height: 0px;
+	line-height: 0px;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix{
+	/*设置或检索对象的缩放比例*/
+	zoom:1;
+}

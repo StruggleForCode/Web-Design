@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人中心</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/topbar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Personal_top.css"/>
+		<link rel="stylesheet" type="text/css" href="css/SecondPart.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Personal_SecondPart.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ThirdPart.css"/>
+		<link rel="stylesheet" type="text/css" href="css/BottomPart.css"/>
+	</head>
+	<body>
+		<!--导航栏-->
+		<div id="Personal_top">
+			<div class="top_nav">
+				<div class="logo"><img src="image/Logo.png"/></div>
+				<a href="index.html" class="FirstText">首页</a>
+				<div class="nav_text">
+					<a href="#">专业课程</a>
+					<a href="#">个人中心</a>
+					<a href="#" >个人收藏夹</a>
+					<a href="#">讲师咨询</a>
+				</div>
+				<div class="bar">
+					<input type="text" placeholder="搜索更多课程"/>
+					<button><span id="magnifying-glass"></span></button> 
+				</div>
+			</div>
+		</div>
+		
+		<!--第二部分-->
+		<div class="Personal_SecondPart">
+			<!--左侧栏-->
+			<div id="people-state">
+				<div class="peoplelist">
+					<p>我的购买</p>
+					<ul>
+						<li><a class="sty">全部订单</a></li>
+						<li><a>已支付</a></li>
+						<li><a>未支付（0）</a></li>
+					</ul>
+				</div>
+				<div class="peoplelist">
+					<p>我的课程</p>
+					<ul>
+						<li><a>我的学习</a></li>
+						<li><a>我的荣誉</a></li>
+						<li><a>消息通知（0）</a></li>
+					</ul>
+				</div>
+				<div class="peoplelist">
+					<p>账号设置</p>
+					<ul>
+						<li><a>个人资料</a></li>
+						<li><a>账号安全</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--右边-->
+			<div id="people_right">
+				<!--右边的顶部 分成三个div块-->
+				<div id="people_right_01">
+					<div class="people-row1" style="margin-left: 30px;">
+						<p class="p1">Hi,同学欢迎回来~</p>
+						<p class="lst">最后一次点播学习课程：</p>
+						<p class="lst">暂无学习记录</p><br />
+						<p class="lst">最后一次直播学习课程：</p>
+						<p><a href="#">【第1节】---电商设计的工作方法</a></p>
+					</div>
+					
+					<div class="people-row1" >
+						<p class="p2">本周直播课程时间表</p>
+					</div>
+					
+					<div class="people-row1" style="padding-right: 5px;">
+						<div class="people_paint">
+							<img src="image/人物矢量白.png" style="margin: 10px;"/>
+						</div>
+						
+						<div class="people-mession">
+							<p class="p3">我的昵称</p>
+							<p class="lsr">学员</p> 
+							<p class="lsr">ID:HAOHAO</p>
+						</div>
+						
+						<div class="people_course">
+							<div> 
+								<select id="courseSelect">
+									<option>
+										AI综合案例提升课
+									</option>
+									<option>
+										网页设计行业实战课
+									</option>
+									<option>
+										平面设计试学精品课
+									</option>
+									<option>
+										AI功能精通课
+									</option>
+									<option>
+										PS功能精通课
+									</option>
+									<option>
+										室内实战课-3
+									</option>
+									<option>
+										PS综合案例提升课
+									</option>
+								</select>
+							</div>
+							<p>&nbsp;已报名课程</p>
+						</div>
+	
+					</div>
+					
+				</div>
+				<!--课程进度-->
+				<div id="people_right_02">
+					<!--左侧-->
+					<div class="tow-box" style="float: left;background-color: #F8931F;">
+						<div class="towbox-row1">
+							<img src="image/播放空心小三角图标.png">直播课程
+						</div>
+						<span class="already">已学习 19/85</span> 
+						<div class="alread-bar">
+							<div class="alread-bar section"></div>
+						</div>
+						<span class="towbox-row2">22%</span>
+						<div class="towbox-row3">
+							<img src="image/音量小图标.png">当前直播课程
+						</div>
+					</div>
+					<!--右侧-->
+					<div class="tow-box" style="float: left;background-color: #37C3FF;">
+						<div class="towbox-row1">
+							<img src="image/播放空心小三角图标.png">录播课程
+						</div>
+						<span class="already" style="color: #B0E6FF;">已学习 0/85</span> 
+						<div class="alread-bar" style="border-color: #B0E6FF;">
+							<div></div>
+						</div>
+						<span class="towbox-row2" style="color:#B0E6FF;">0%</span>
+						<div class="towbox-row3" style="color: #fFF;">
+							<img src="image/音量小图标.png">当前直播课程
+						</div>
+					</div>
+				</div>
+				
+				<table id="people_right_03">
+					<thead>
+						<tr>
+							<th class="th1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;已选课程</th>
+							<th class="th2"></th>
+							<th class="th3">
+								购物车
+								<img src="image/gouwuche.png"/>
+							</th>
+							<th class="th4"></th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr class="tr1">
+							<td style="width: 85px;padding: 8px;">课程名</td>
+							<td style="width: 105px;">积分价格</td>
+							<td class="classes">数量</td>
+							<td style="width: 25px;">删除</td>
+						</tr>
+						
+						<tr class="car-goods">
+							<td style="width: 85px;">UI设计全能VIP套餐</td>
+							<td style="width: 105px;">
+								<hhh> &yen; : 4999  <i>(原价:5999)</i> </hhh>
+								<p>积分:189</p>
+							</td>
+							<td>
+								<button>-</button>
+								<input font-align ="center"type="text" value="1" size="1" style="text-align: center">
+								<button>+</button>
+							</td>
+							<td style="width: 25px;">删除</td>
+						</tr>
+						
+						<tr class="car-goods" >
+							<td style="width: 85px;">广告视觉行业实战课</td>
+							<td style="width: 105px;">
+								<hhh> &yen; : 3980  <i>(原价:4980)</i> </hhh>
+								<p>积分:150</p>
+							</td>
+							<td>
+								<button>-</button>
+								<input font-align ="center"type="text" value="1" size="1" style="text-align: center">
+								<button>+</button>
+							</td>
+							<td style="width: 25px;">删除</td>
+						</tr>
+			
+						<tr class="car-goods" >
+							<td style="width: 85px;">影楼设计行业实战课</td>
+							<td style="width: 105px;">
+								<hhh> &yen; : 3489  <i>(原价:4999)</i> </hhh>
+								<p>积分:128</p>
+							</td>
+							<td>
+								<button>-</button>
+								<input font-align ="center"type="text" value="1" size="1" style="text-align: center">
+								<button>+</button>
+							</td>
+							<td style="width: 25px;">删除</td>
+						</tr>
+			
+						<tr class="car-goods" >
+							<td style="width: 85px;">高端绘画设计导师课</td>
+							<td style="width: 105px;">
+								<hhh> &yen; : 6288  <i>(原价:7999)</i></hhh>
+								<p>积分:320</p>
+							</td>
+							<td>
+								<button>-</button>
+								<input font-align ="center"type="text" value="1" size="1" style="text-align: center">
+								<button>+</button>
+							</td>
+							<td style="width: 25px;">删除</td>
+						</tr>
+			
+						<tr class="car-goods" >
+							<td style="width: 85px;">室内设计行业实战课</td>
+							<td style="width: 105px;">
+								<hhh> &yen; : 6900  <i>(原价:8299)</i> </hhh>
+								<p>积分:398</p>
+							</td>
+							<td>
+								<button>-</button>
+								<input font-align ="center"type="text" value="1" size="1" style="text-align: center">
+								<button>+</button>
+							</td>
+							<td style="width: 25px;">删除</td>
+						</tr>
+									
+					</tbody>
+					
+					<tfoot>
+						<tr>
+							<td colspan="4">
+								<div id="clean-car">
+									清空购物车
+									<img src="image/shouzhi.png" width="20px" height="20px" style="position: relative;top: 4px;">
+								</div>
+								<div style="float: right;" id="payfor">
+									<p style="display: inline-block;">
+										<span>为您优惠金额：6620</span>
+										<span>可获得学员积分：1185</span></p>
+										<div class ="www"></div>
+										<div id="total">总计：25656</div>
+										<button>支 付</button>
+								</div>
+							</td>			
+						</tr>
+					</tfoot>
+					
+				</table>
+				
+			</div>
+			
+		</div>
+		
+		<!--第三部分-->
+		<div id="Bottom_content">
+			<ul id="nav-bar">
+				<li><img src="image/直播小图标.png"/>在线直播授课</li>
+				<li><img src="image/书籍小图标.png"/>新颖在线教法</li>
+				<li><img src="image/直播小图标.png"/>多年经验讲师</li>
+				<li><img src="image/书籍小图标.png"/>系统课程体系</li>
+			</ul>
+			<hr/>
+			<div id="Bottom_content_second">
+				<ul class="nav2">
+					<li class="nav-1">我想学</li>
+					<li> <a>UI设计行业实战班</a></li>
+					<li> <a>影视后期直通班</a></li>
+					<li> <a>PS人物转手绘特训班</a></li></a>
+				</ul>
+				<ul class="nav2">
+					<li class="nav-1">我想了解</li>
+					<li> <a>朋友说</a></li>
+					<li> <a>大鹏炫技</a></li>
+					<li> <a>精品课程</a></li>
+				</ul>
+				<ul class="nav2">
+					<li class="nav-1">获得证书</li>
+					<li> <a>工信部证书</a></li>
+					<li> <a>CCID认证</a></li>
+				</ul>
+				<ul class="nav2">
+					<li class="nav-1">了解大鹏</li>
+					<li> <a>大鹏简介</a></li>
+					<li> <a>媒体报道</a></li>
+					<li> <a>学员评价</a></li>
+				</ul>
+			</div>
+			<div id="Bottom_content_third">
+					<img src="image/二维码.gif" width="85px">
+					<br>关注微信公众号
+			</div>
+			<hr/>
+			<div class="bottom">
+				<a href="">联系我们</a><span>  &nbsp;&nbsp;&nbsp;&nbsp;|</span>
+				<a href="">帮助中心</a><span>  &nbsp;&nbsp;&nbsp;&nbsp;|</span>
+				<a href="">关于我们</a>
+			</div>
+			<span class="bottom_last_span">Copyright © 2013-2019 大鹏教育　|　京ICP备14053618号</span>
+		</div>
+	</body>
+</html>

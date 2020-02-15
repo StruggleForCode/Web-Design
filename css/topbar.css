@@ -1,0 +1,218 @@
+
+#top_content{
+	height: 430px;
+	overflow: hidden;
+}
+
+.nav_shadow{
+	width: 100%;
+	height: 430px;
+	/*向div元素添加阴影 水平 垂直 模糊距离 阴影颜色 从外层的阴影（开始）改变阴影内侧阴影*/
+	box-shadow: -8px 20px 65px #2a2929 inset;
+	position: absolute;
+}
+
+.top_nav{
+	width: 1180px;
+	margin: 0 auto;
+	height: 80px;
+	height: 65px;
+	position: absolute;
+	/*left 属性规定元素的左边缘。该属性定义了定位元素左外边距边界与其包含块左边界之间的偏移。*/
+	left: 4%;
+}
+
+.logo{
+	margin: 14px 0px;
+	float: left;
+}
+
+.logo img{
+	height: 35px;
+}
+
+.top_nav a{
+	display: inline-block;
+	color: #DDDDDD;
+	margin: 6px 20px;
+	font-size: 15px;
+	margin-top: 22px;
+}
+
+.top_nav .FirstText{
+	margin-left: 64px;
+	font-size: 17px;
+	color: #FFFFFF;
+}
+
+.nav_text{
+	float: right;
+	height: 65px;
+	margin-right: 10px;
+}
+
+ .nav_text a:hover{
+	color: #fff;
+}
+
+.bar{
+	float: right;
+	margin-right: 108px;
+	margin-top: 18px;
+}
+
+.bar input{
+	width:120px;height:25px;border: none; background:rgba(40,40,54,0.2);
+	color: #c1c1cc;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+/*改变“搜索更多课程”的颜色*/
+.bar input::-webkit-input-placeholder{
+	color: #c1c1cc;
+}
+
+.bar button{
+	width:25px;height:25px;border:none; 
+	background-color:rgba(40,40,54,.2);
+	text-align: center;
+	margin-left: -5px;
+	position: relative;top: 2px;
+}
+
+.bar:hover input{
+	border:1px solid #FFFFFF;
+}
+.bar:hover button{
+	border:1px solid #FFFFFF;
+	/*background-color: green;*/
+}
+
+/*仔细看*/
+#magnifying-glass{
+	 font-size: 2em; /* This controls the size.做搜索放大镜图标矢量效果 */
+	 display: inline-block;
+	 width: 0.4em;
+	 height: 0.4em;
+	 border: 0.1em solid #FFFFFF;
+	 position: relative;
+	 border-radius: 0.35em;
+}
+#magnifying-glass::before{
+	 content: "";
+	 display: inline-block;
+	 position: absolute;
+	 right: -0.25em;
+	 bottom: -0.1em;
+	 border-width: 0;
+	 background: #FFFFFF;
+	 width: 0.35em;
+	 height: 0.08em;
+	 transform: rotate(45deg);
+}
+
+.banner{
+	width: 1920px;
+	/*属性规定背景图像的尺寸,cover把背景图像扩展至足够大，以使背景图像完全覆盖背景区域*/
+	background-size:cover;
+	background-position: center;
+	height: 100%;
+	float: left;
+}
+
+#banner-photo{
+	animation: switch 20s ease-out infinite;
+	/*animation-fill-mode 属性规定动画在播放之前或之后，其动画效果是否可见*/
+	animation-fill-mode: backwards;
+	width: 7680px;height: 430px;
+} 
+
+@keyframes switch{
+	0%,20%{
+		margin-left: -300px;
+	}
+	25%,45%{
+		margin-left: -2220px;
+	}
+	50%,70%{
+		margin-left: -4140px;
+	}
+	75%,85%{
+		margin-right: -6060px;
+	}
+	87%,95%{
+		margin-left: -6100px;
+	}
+	96%,100%{
+		margin-left: -300px;
+	}
+} 
+
+/*小轮播图*/
+#small_banner{
+	width:100%;
+	height:135px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+	/*background: gray;*/
+}
+
+#small-photo{
+	width: 278px;height: 97px;position: absolute;
+	left: 1px;top: 24px;
+	border-radius: 4px;
+	box-shadow: 0px 20px 15px -20px #000 inset,0px -20px 15px -20px #000 inset;
+	background-color: rgba(,0,0,0.05);
+	z-index: 999;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	/*给图片应用一种线性乘法，使其看起来更亮或更暗。如果值是0%，图像会全黑。值是100%，则图像无变化。其他的值对应线性乘数效果。值超过100%也是可以的，图像会比原来更亮。如果没有设定值，默认是1*/
+	filter: brightness(100%);
+}
+
+.banners-bar{
+	float: left;
+	width: 276px;
+	margin: 4px;
+	box-shadow: 0px 8px 10px -5px #ccc, 0px 5px 15px #6E6568 inset;
+}
+
+.s-bannnerbar{
+	animation: switch2 20s ease-out infinite;
+	animation-fill-mode: backwards;
+	width: 2280px;
+	padding:20px 0;
+	height:135px;
+	margin: 1px auto;
+	text-align: center;
+	position: relative;
+	left: -2px;
+}
+@keyframes switch2{
+	0%,20%{
+		margin-left: 0;
+	}
+	25%,45%{
+		margin-left: -284px;
+	}
+	50%,70%{
+		margin-left: -568px;
+	}
+	75%,85%{
+		margin-right: -852px;}
+		87%,95%{
+			margin-left: -853px;
+		}
+	96%,100%{
+		margin-left: 0px;
+	}
+} 
+
+.s-bannnerbar div img{
+	width: 277px;
+	height: 95px;
+	filter: whitescale(100%);
+}
+

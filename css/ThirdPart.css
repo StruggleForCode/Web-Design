@@ -1,0 +1,62 @@
+
+#Third_content{
+	background: rgb(240,240,240);
+	width: 1140px;
+	margin: 0 auto;
+	height: 598px;
+	margin-top: 45px;
+	background-image:url(../image/地图背景.png);
+	background-size: cover;
+}
+
+#Third_content div{
+	text-align: center;
+	padding-top: 50px;
+}
+#Third_content div h2{
+	font-family: 幼圆;
+	color: #1b1b1b;;
+}
+
+#more-new{
+	width: 112px;
+	height: 32px;
+	background-color:#242424;
+	border-radius: 16px;
+	color: #fff;
+	line-height: 32px;
+	box-shadow: 0 0 1px #979797;
+	display: block;
+	margin: 15px auto;
+}
+#more-new:hover{
+	background-color: #979797;
+}
+
+.comment{
+	margin: 0 auto;
+}
+.comment li{
+	float: left;
+	margin: 30px;
+}
+.comment span{
+	display: inline;
+	position: relative;
+	top: -48px;
+}
+
+
+#fixed-point{
+	width:182px;
+	height:99.5px;
+	/*fixed脱离标准流 不占位置*/
+	position: fixed;bottom: 168px;right: 0px;z-index: 999;
+	padding: 10px 0 0 30px;
+	box-shadow:0px 5px 20px #37c266 ;
+	background-color: #37C266;
+	border-top-left-radius:60px;
+	border-bottom-left-radius:60px;
+	color: #fff;
+	font-size: 13px;
+}

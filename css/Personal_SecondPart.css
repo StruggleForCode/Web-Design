@@ -1,0 +1,362 @@
+
+
+/*左侧*/
+.Personal_SecondPart{
+	height: 412px;
+	width: 1140px;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+
+#people-state{
+	width: 160px;
+	float: left;
+}
+.peoplelist{
+	margin-bottom: 40px;
+}
+.peoplelist p{
+	color: #999;
+	font-size: 18px;
+	margin: 5px;
+}
+.peoplelist a{
+	color: #444;
+	font-size: 14px;
+	margin: 5px;
+	padding-left: 15px;
+	line-height: 27px;
+}
+.peoplelist a:hover{
+	color: #00D853;
+}
+
+a.sty{
+	color: #00D853;
+	font-weight: 700;
+}
+
+/*右侧*/
+/*右侧上部*/
+#people_right{
+	width:935px;
+	float:right;
+	margin-bottom:40px;
+	background-color:#fff;
+	box-shadow: 0 0 3px #E0E0E0;
+	border-radius: 2px;
+}
+
+#people_right_01{
+	width: 100%;
+	height:195px;
+	background-color:#fff;
+}
+
+.people-row1{
+	width: 290px;
+	display: inline-block;
+	margin-top: 10px;
+	
+}
+.lst{
+	font-size: 14px;
+	color: #999;
+	margin: 0 0 3px;
+}
+
+.people-row1 p a{
+	color: #00D853;
+	font-size: 14px;
+}
+
+.p1{
+	font-size: 20px;
+	line-height: 53px;
+	color: #999;
+}
+
+.p2{
+	color:#00D853;
+	font-size:20px;
+	/*float: right;*/
+	padding-left:25px;
+	position: relative;
+	top:-122px;
+}
+
+.people_paint{
+	width: 80px;
+	height: 80px;
+	border:2px solid #979797;
+	border-radius: 50px;
+	float: right;
+	margin:11px;
+}
+
+.people-mession{
+	float: right;
+	text-align: right;
+	margin: 10px;
+}
+
+.p3{
+	font-size: 20px;
+	color: #000;
+	margin-bottom: 11px;
+}
+
+.people_course{
+	width: 246px;
+	height: 35px;
+	border:1px solid #999;
+	border-radius: 8px;
+	margin-top: 115px;
+	margin-left: 48px;
+	overflow: hidden;
+}
+
+.people_course div{
+	width: 150px;
+	height: 100%;
+	float: right;
+}
+
+.people_course p{
+	width: 97px; 
+	height: 100%; 
+	background-color: #F2F2F2;
+	color: #999;
+	font-size: 16px;
+	line-height: 34px;
+	font-weight: 600;
+}
+
+#courseSelect{
+	appearance: none;
+	overflow: visible;
+	border-left:1px solid #999;
+	border-right: none;
+	border-bottom-style: none;
+	border-top:none;
+	width: 154px;height: 100%;
+	color: #00D853;
+}
+
+/*右侧中部*/
+#people_right_02{
+	width: 100%;
+	height: 180px;
+	margin-top: 20px;
+}
+
+.tow-box{
+	width: 465px;
+	height: 179px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.towbox-row1{
+	margin: 20px 15px 10px 15px;
+	color:#FFFFFF;
+	font-size: 24px;
+}
+.towbox-row1 img{
+	position: relative;
+	top:6px;
+	padding-left:8px;
+	left: -1px;
+}
+.already{
+	font-size: 14px;
+	color: #FCD4A3;
+	font-weight: 700;
+	margin-left:35px;
+	line-height: 10px;
+}
+.alread-bar{
+	display: inline-block;
+	width: 256px;height: 10px;
+	border: 2px solid #FCD4A3;
+	border-radius: 22px;
+	margin-left: 17px;
+	position: relative;
+	top:6px;
+}
+.towbox-row2{
+	font-size: 14px;
+	color: #FCD4A3;
+	font-weight: 300;
+	margin-left:4.5px;
+	
+}
+.section{
+	width: 100px;
+	height: 100%;
+	background-color: #FCD4A3;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin-left: -2px;
+	position: relative;top:-3.5px;
+}
+
+.towbox-row3{
+	color: #fff;
+	font-size: 14px;
+	margin: 37px 36px;
+}
+
+.towbox-row3 img{
+	width: 25px;
+	position: relative;
+	top:8px;
+}
+
+/*右侧下部*/
+#people_right_03{
+	width: 100%;
+	/*border-collapse 属性设置表格的边框是否被合并为一个单一的边框，还是象在标准的 HTML 中那样分开显示*/
+	/*如果可能，边框会合并为一个单一的边框。会忽略 border-spacing 和 empty-cells 属性*/
+	border-collapse: collapse;
+	border-color: grey;
+	margin-top: 0px
+}
+
+#people_right_03 thead{
+	background-color: #FFF1E0;
+	width:100%;
+}
+
+#people_right_03 thead tr{
+	color: #9A9A9A;
+	height: 48px;
+}
+
+#people_right_03 thead tr .th1{
+	width: 85px;
+	border-right: 1px solid #E6E6E6;
+	padding: 8px;
+	text-align: left;
+	font-size: 17px;
+}
+
+#people_right_03 thead tr .th2{
+	width: 105px;
+	border-right: 1px solid #E6E6E6;
+}
+
+#people_right_03 thead tr .th3{
+	width: 60px;
+	font-size: 14px;
+	text-align: right
+}
+
+#people_right_03 thead tr .th3 img{
+	height: 20px;
+	width: 20px;
+	position: relative;
+	top:5px;
+	filter: brightness(130%);
+}
+
+#people_right_03 thead tr .th4{
+	width: 25px;
+}
+
+#people_right_03 tbody{
+	background-color:#ffb55f;
+	width: 100%;
+}
+
+tbody .tr1{
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	height:36px;
+}
+
+.classes{
+	width: 60px;
+	position: relative;
+	text-align: center;
+}
+
+.car-goods{
+	border-bottom: dashed 1px #ededed;
+	color: #666;
+	height: 50px;
+	text-align: center;
+	background-color: #f9f9f9;
+	padding: 8px;
+}
+.car-goods td:nth-child(2) hhh{
+	color:#fc7e22;
+}
+.car-goods td:nth-child(2) i{
+	text-decoration:line-through;color:#b5b5b8!important;font-size: 14px;
+}
+.car-goods td:nth-child(2) p{
+	font-size: 14px;
+	color: #7b7979;
+	margin-left: -75px;
+}
+.car-goods td:nth-child(3) button{
+	background-color:#edebeb;
+	color: #6a6a6b;
+	height: 15px;
+	width: 15px;
+	border: none;
+}
+.car-goods td:nth-child(4){
+	color:#F7931E;
+	/*#37C3FF*/
+	text-decoration: underline;
+}
+
+tfoot tr{
+	background-color:#f9f4ee;
+	height: 70px;
+}
+
+tfoot p span{
+	display: block;
+	color:#666666;
+	font-size: 14px;
+	text-align: right;
+	line-height: 20px;
+}
+#clean-car{
+	width: 50%;
+	height: 100%;
+	float: left;
+	color:#615d5d;
+	font-size: 17px;
+	padding-left: 28px;
+}
+
+#payfor button{
+	width: 100px;
+	height: 38px;
+	background-color:#f68434;
+	border: none;
+	border-radius: 45px;
+	color: #ffFFFF;
+	font-size: 16px;
+	margin-right: 20px;
+	vertical-align: super;
+}
+#total{
+	margin-right:15px;
+	color: #585656;
+	vertical-align: super;
+	display: inline-block;
+	line-height: 20px;
+}
+
+.www{
+	width: 10px;
+	height: 36px;
+	border-right: 1px solid #ccc;
+	display:inline-block;
+	margin-right: 10px;
+}
